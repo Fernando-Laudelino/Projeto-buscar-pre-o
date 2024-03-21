@@ -21,7 +21,7 @@ sheet_monitor = workbook['Monitor']
 sheet_monitor['A1'].value = 'Produto'
 sheet_monitor['b1'].value = 'Preco'
 workbook.save('produtos.xlsx') 
-
+# Faz a leitura e salva em colunas.
 for t,v in zip (titulos,valores):
     sheet_monitor.append([t.text,v.text])
 workbook.save('produtos.xlsx')
