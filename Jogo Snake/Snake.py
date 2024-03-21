@@ -110,6 +110,6 @@ def rodar_jogo():
         relogio.tick(velocidade_jogo)
 
 rodar_jogo()
-
+# tenho que descobri por que não está rodando
 
 
